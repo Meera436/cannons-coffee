@@ -21,11 +21,12 @@ body {
     font-size: 1.125rem;
     line-height: 1.5;
     margin: 0;
-    background-color: var(--color-bluetiful);
+    background-color: var(--color-catalina);
 
 }
 
 .hero{
+    background-color: var(--color-white);
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -68,6 +69,8 @@ html {
 
 
 .container {
+    border-top: 10px solid var(--color-sunglow);
+    border-bottom: 10px solid var(--color-sunglow);
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -182,6 +185,7 @@ h3 {
 
 .card-container {
   display: flex;
+  background-color: var(--color-light-blue);
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -263,7 +267,6 @@ h3 {
 }
 .footer{
     background-color: var(--color-catalina);
-    border-top: 10px solid var(--color-sunglow);
     color:(var(--color-white));
     text-align: center;
     padding: 2rem 1rem;
