@@ -40,7 +40,7 @@ body {
 #left, #right { 
   width: 50%; 
   margin:0; 
-  padding: 1em; 
+  padding: 1rem; 
   background: white; 
 } 
 
@@ -184,7 +184,9 @@ h3 {
 
 
 .card-container {
+
   display: flex;
+  padding-left: 2.5rem;;
   background-color: var(--color-light-blue);
   flex-wrap: wrap;
   gap: 1rem;
