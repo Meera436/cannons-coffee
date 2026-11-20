@@ -251,9 +251,16 @@ h3 {
         padding: 1rem;
         width: 100%;
     }
+    .hero{
+        flex-direction: column;
+    }
+    #left {
+        width: 100%;
+    }
 
     .brand {
         justify-content: center;
+        flex-direction: column;
     }
 
     .nav-links {
@@ -262,7 +269,7 @@ h3 {
 
     .nav-links ul {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         gap: 0.75rem 1.5rem;
     }
