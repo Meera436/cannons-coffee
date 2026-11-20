@@ -263,7 +263,7 @@ h3 {
         flex-direction: column;
     }
 
-    .nav-links {
+    .nav-links a {
         width: 100%;
     }
 
