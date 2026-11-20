@@ -186,7 +186,7 @@ h3 {
 .card-container {
 
   display: flex;
-  padding-left: 2.5rem;;
+  padding-left: 2.5rem;
   background-color: var(--color-light-blue);
   flex-wrap: wrap;
   gap: 1rem;
@@ -201,6 +201,25 @@ h3 {
 
 .card img{
     width: 100%;
+}
+.footer{
+    background-color: var(--color-catalina);
+    color:(var(--color-white));
+    text-align: center;
+    padding: 2rem 1rem;
+    width: 100%;
+}
+.footer-logo{
+    display: block;
+    width: 85%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+.footer p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 1rem auto 0;
 }
 
 /*Tablet */
@@ -223,6 +242,7 @@ h3 {
     .card{
         width:23%;
     }
+ }
     /* Mobile: under 650px */
 @media (max-width: 649px) {
     .navbar {
@@ -252,6 +272,9 @@ h3 {
         text-align: center;
     }
 
+    .card-container{
+        padding-right: 2.5rem;
+    }
     .brand h1 {
         font-size: 1.5rem;
     }
@@ -266,24 +289,4 @@ h3 {
         font-size: 1rem;;
 
     }
-}
-.footer{
-    background-color: var(--color-catalina);
-    color:(var(--color-white));
-    text-align: center;
-    padding: 2rem 1rem;
-    width: 100%;
-}
-.footer-logo{
-    display: block;
-    width: 85%;
-    max-width: 500px;
-    height: auto;
-    margin: 0 auto 1rem;
-}
-.footer p{
-    font-size: 1.25rem;
-    line-height: 1.5;
-    margin: 1rem auto 0;
-}
 }
